@@ -1,0 +1,35 @@
+# Ignore WordPress core files*/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+sitemap.xml
+*.log
+/wp-*.php
+/index.php
+license.txt
+readme.html
+/wp-admin
+/wp-includes
+xmlrpc.php
+wp-content/cache/
+wp-content/backups/
+wp-content/mu-plugins/pagely*
+wp-content/index.php
+wp-config-hosting.php
+wp-config.php
+sitemap.xml.gz
+
+db-config.php
+
+# Databases
+*.sql
+*.sql.gz
+*.sqlite
+
+# Compressed files
+*.zip
+*.tar
+*.gz
+*.rar
+
+# OS files
+.DS_Store
