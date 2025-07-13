@@ -7,7 +7,6 @@ jobs:
   deploy:
     name: Deploy to Pagely - plugin
     runs-on: ubuntu-latest
-    if: contains(join(github.event.commits.*.modified, ','), 'wp-content/plugins/test') || contains(join(github.event.commits.*.added, ','), 'wp-content/plugins/test')
     steps:
       - uses: actions/checkout@v2
       - name: Run deploy
